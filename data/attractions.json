@@ -1,0 +1,93 @@
+{
+    "title": "Know Your City",
+    "category" : {
+        "park": [
+            {
+                "question" : "Know about park with skating arena?",
+                "answer" : ["Central Park", "Bryant Park"]
+            },
+            {
+                "question" : "Know about park with water activities?",
+                "answer" : ["Central Park"]
+            },
+            {
+                "question" : "Know about park with picnic area?",
+                "answer" : ["Central Park"]
+            } ,
+            {
+                "question" : "Know about park with library?",
+                "answer" : ["Bryant Park"]
+            },
+            {
+                "question" : "Know about park with running activities?",
+                "answer" : ["Central Park"]
+            }                                                
+        ],
+        "architecture": [
+            {
+                "question": "Know about historical architecture?",
+                "answer" : ["NYC Library"]
+            },
+            {
+                "question": "Know about modern architecture?",
+                "answer" : ["WTC"]
+            }            
+        ],
+        "monuments": [
+            {
+                "question": "Know about historical monuments?",
+                "answer" : ["Statue of Liberty", "Brooklyn Bridge"]
+            },
+            {
+                "question": "Know about historical monuments?",
+                "answer" : ["Statue of Liberty", "Brooklyn Bridge"]
+            }                      
+        ],
+        "mueseums": [
+            {
+                "question": "Know about contemporary mueseums?",
+                "answer" : ["The Metropolitan Museum of Art", "Museum of Modern Art"]
+            },
+            {
+                "question": "Know about science mueseums?",
+                "answer" :["American Museum of Natural History", "Intrepid Sea, Air & Space Museum"]
+            },
+            {
+                "question": "Know about history mueseums?",
+                "answer" : ["The New-York Historical Society", "The Metropolitan Museum of Art"]
+            },
+            {
+                "question": "Know about kids mueseums?",
+                "answer" : ["Brooklyn Children's Museum", "NYC Transit Museum", "NYC Fire Museum"]
+            }
+        ],
+        "cruises" : [
+            {
+                "question": "Know about party cruises?",
+                "answer" : ["Empire Cruises", "Hornblower Cruises"]
+            },
+            {
+                "question": "Know about city tour cruises?",
+                "answer" : ["Circle Line Sightseeing", "City Sightseeing"]
+            } 
+        ],
+        "food": [
+            {
+                "question": "Know about Italian Restaurant?",
+                "answer" : ["rubirosa"]
+            },
+            {
+                "question": "Know about American Dinners?",
+                "answer" : ["The Dutch", "Estela"]
+            },
+            {
+                "question": "Know about Chinese Restaurant?",
+                "answer" : ["Atlas Kitchen", "108 Food- Dried Hot Pot"]
+            },
+            {
+                "question": "Know about Indian Restaurant?",
+                "answer" : ["Usha Foods", "Junoon", "Adda"]
+            }                        
+        ]
+    }
+}

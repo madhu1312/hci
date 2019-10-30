@@ -1,0 +1,131 @@
+{ 
+  "title":"Do you know  Your City",
+  "category":{ 
+     "questions":[ 
+        { 
+           "text":"which city you want to know.",
+           "responses":[ 
+              { 
+                 "text":"New York"
+              },
+              { 
+                 "text":"Washington"
+              }
+           ]
+        },
+        { 
+           "text":"In New York, what do you want to know",
+           "responses":[ 
+              { 
+                 "text":"Attractions"
+              },
+              { 
+                 "text":"Park"
+              },
+              { 
+                "text":"Restuarants"
+             }
+           ]
+        },
+        { 
+           "text":"Looking for Park with",
+           "responses":[ 
+              { 
+                 "text":"Ice Skating arena"
+              },
+              { 
+                 "text":"Library"
+              }
+           ]
+        },
+        { 
+           "text":"These are the parks",
+           "responses":[ 
+              { 
+                 "text":"Central Park"
+              },
+              { 
+                 "text":"Bryant Park"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about the park with running activities.",
+           "responses":[ 
+              { 
+                 "text":"Herald SquarePark"
+              },
+              { 
+                 "text":"Central Park"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about historical architecture.",
+           "responses":[ 
+              { 
+                 "text":"WTC"
+              },
+              { 
+                 "text":"NYC Library"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about modern architecture.",
+           "responses":[ 
+              { 
+                 "text":"Bryant Park Hotel"
+              },
+              { 
+                 "text":"World Trade Center"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about contemporary mueseums.",
+           "responses":[ 
+              { 
+                 "text":"The Metropolitan Museum of Art"
+              },
+              { 
+                 "text":"Intrepid Sea, Air & Space Museum"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about science mueseums.",
+           "responses":[ 
+              { 
+                 "text":"American Museum of Natural History"
+              },
+              { 
+                 "text":"Intrepid Sea, Air & Space Museum"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about history mueseums.",
+           "responses":[ 
+              { 
+                 "text":"Brooklyn Children's Museum"
+              },
+              { 
+                 "text":"The New-York Historical Society"
+              }
+           ]
+        },
+        { 
+           "text":"Do you know  about kids mueseums.",
+           "responses":[ 
+              { 
+                 "text":"NYC Transit Museum"
+              },
+              { 
+                 "text":"The New-York Historical Society"
+              }
+           ]
+        }
+     ]
+  }
+}

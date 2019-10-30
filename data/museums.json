@@ -1,0 +1,8 @@
+{
+    "category" : {
+        "contemporary" : ["The Metropolitan Museum of Art", "Museum of Modern Art"],
+        "science" : ["American Museum of Natural History", "Intrepid Sea, Air & Space Museum"],
+        "history" : ["The New-York Historical Society", "The Metropolitan Museum of Art"],
+        "kids" : ["Brooklyn Children's Museum", "NYC Transit Museum", "NYC Fire Museum"]
+    }
+}   

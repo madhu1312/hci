@@ -1,0 +1,78 @@
+{
+    "category" : {
+        "italian" : {
+            "pasquale-jones" : {
+                "speciality": "bread"
+            },
+            "lartusi": {
+                "speciality": "cheese"
+            },
+            "carbone": {
+                "speciality": "wine"
+            },
+            "rubirosa": {
+                "speciality": "pasta"
+            },
+            "lilia": {
+                "speciality": "meatballs"
+            }
+        },
+        "chinese" : {"Atlas Kitchen": {
+            "speciality": "chow-mein"
+        }, 
+            "108 Food- Dried Hot Pot": {
+                "speciality": "pork"
+            }, 
+            "Friendship Foods BBQ" : {
+                "speciality": "kung-pao chicken"
+            }, 
+            "You Garden Xiao Long Bao" : {
+                "speciality": "dimsum"
+            }, 
+            "Joe’s Steam Rice Roll" : {
+                "speciality": "beer"
+            }
+        }, 
+        "indian" : {
+            "Usha Foods": {
+            "speciality": "panner"
+            },
+             "Adda": {
+                "speciality": "appetizers"
+            },
+            "Punjabi Grocery and Deli": {
+                "speciality": "non-veg"
+            },
+            "Dhaba" :
+             {
+                "speciality": "authentic-feel"
+            },
+            "Awadh" : 
+            {
+                "speciality": "vegeterain"
+            }
+        },
+        "french" : {
+            "Le Coucou": 
+            {
+            "speciality": "wine"
+            }, 
+            "Le Bernardin": 
+            {
+                "speciality": "cheese"
+            }, 
+            "Manhatta": 
+            {
+                "speciality": "bread"
+            },
+            "Augustine": 
+            {
+                "speciality": "sandwiches"
+            }, 
+            "Le Coq Rico": 
+            {
+                "speciality": "platter"
+            }
+        }
+    }
+} 
