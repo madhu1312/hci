@@ -1,11 +1,11 @@
 <template>
 <div id="quiz">
-    <h2 v-if="!quizStarted">Click Start to take a Quiz About Your City</h2>
+    <h2 v-if="!quizStarted">Click Start</h2>
         <button @click="startQuiz()" v-if="!quizStarted">START!!</button>
         <div v-for = "(question, index) in info.questions" :key=question>
         <div v-show="index === questionIndex">
         <h2>{{question.text}}</h2>
-        <div v-for="response in question.responses" :key=response>
+        <div class="questions" v-for="response in question.responses" :key=response>
             <ol>
             <!-- <li v-for="response in question.responses" :key=response> -->
                 <label>
@@ -13,20 +13,19 @@
                     v-bind:value="response.correct" 
                     v-bind:name="index"
                     v-model="userResponses[index]"
-                    style="vertical-align: baseline;"
                     > {{response.text}}
                 </label>
             </ol>
             <!-- </li> -->
             </div>
-      <button v-if="questionIndex > 0" v-on:click="previous">
+      <button v-if="questionIndex > 0 && questionIndex < info.questions.length - 1" v-on:click="previous">
         prev
       </button>
-      <button v-on:click="next">
+      <button v-if="questionIndex < info.questions.length - 1" v-on:click="next">
         next
       </button>
-        <div v-show="questionIndex === info.questions.length">
-            <h2>Quiz finished</h2>
+        <div v-show="questionIndex === info.questions.length - 1 ">
+            <h2>Quiz Finished</h2>
         </div>                   
         <!-- </ol> -->
     </div>
@@ -95,5 +94,8 @@ export default {
     float: right;
     position: relative; 
     top: 5px; right: 10px;
+}
+.questions {
+  text-align: center;
 }
 </style>

@@ -3,7 +3,7 @@
   "category":{ 
      "questions":[ 
         { 
-           "text":"which city you want to know.",
+           "text":"Which city you want to know about?",
            "responses":[ 
               { 
                  "text":"New York"
@@ -14,7 +14,7 @@
            ]
         },
         { 
-           "text":"In New York, what do you want to know",
+           "text":"In New York, what do you want to know about?",
            "responses":[ 
               { 
                  "text":"Attractions"
@@ -50,81 +50,32 @@
            ]
         },
         { 
-           "text":"Do you know  about the park with running activities.",
+           "text":"How do you want to commute.",
            "responses":[ 
               { 
-                 "text":"Herald SquarePark"
+                 "text":"Train"
               },
               { 
-                 "text":"Central Park"
-              }
+                 "text":"Bus"
+              },
+              { 
+                "text":"Car"
+             },
+             { 
+              "text":"Ferry"
+             }
            ]
         },
         { 
-           "text":"Do you know  about historical architecture.",
+           "text":"Below are train options",
            "responses":[ 
               { 
-                 "text":"WTC"
-              },
-              { 
-                 "text":"NYC Library"
+                 "text":"PATH and N subway"
               }
            ]
         },
-        { 
-           "text":"Do you know  about modern architecture.",
-           "responses":[ 
-              { 
-                 "text":"Bryant Park Hotel"
-              },
-              { 
-                 "text":"World Trade Center"
-              }
-           ]
-        },
-        { 
-           "text":"Do you know  about contemporary mueseums.",
-           "responses":[ 
-              { 
-                 "text":"The Metropolitan Museum of Art"
-              },
-              { 
-                 "text":"Intrepid Sea, Air & Space Museum"
-              }
-           ]
-        },
-        { 
-           "text":"Do you know  about science mueseums.",
-           "responses":[ 
-              { 
-                 "text":"American Museum of Natural History"
-              },
-              { 
-                 "text":"Intrepid Sea, Air & Space Museum"
-              }
-           ]
-        },
-        { 
-           "text":"Do you know  about history mueseums.",
-           "responses":[ 
-              { 
-                 "text":"Brooklyn Children's Museum"
-              },
-              { 
-                 "text":"The New-York Historical Society"
-              }
-           ]
-        },
-        { 
-           "text":"Do you know  about kids mueseums.",
-           "responses":[ 
-              { 
-                 "text":"NYC Transit Museum"
-              },
-              { 
-                 "text":"The New-York Historical Society"
-              }
-           ]
+        {
+          "text":"ENJOY!"
         }
      ]
   }
